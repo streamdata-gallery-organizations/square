@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2436"
 tags: Square
-created: "2018-06-19"
-modified: "2018-06-19"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/square/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
