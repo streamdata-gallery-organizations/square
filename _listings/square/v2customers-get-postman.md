@@ -1,31 +1,39 @@
 {
   "info": {
-    "name": "Square Connect API Get V2 Customers",
-    "_postman_id": "0345e471-0e3c-440b-ad37-b7d81bccddd3",
+    "name": "Square Connect API ListCustomers",
+    "_postman_id": "142b064e-6fc1-41a2-9d25-de70b7a8330b",
     "description": "Lists a business's customers.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
     {
-      "name": "customers",
+      "name": "ListCustomers",
       "item": [
         {
-          "id": "a59ad778-26e6-4b83-bf50-cfbdb03c2f59",
-          "name": "getV2Customers",
+          "id": "f3975f5e-0fe0-4e9b-be00-91d24b76a2d9",
+          "name": "ListCustomers",
           "request": {
-            "url": "http://connect.squareup.com/v1/v2/customers?cursor=%7B%7D",
+            "url": "http://connect.squareup.com/v2/customers?cursor=%7B%7D",
             "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{}",
+                "description": "The value to provide in the Authorization header ofyour request",
+                "disabled": false
+              }
+            ],
             "body": {
               "mode": "raw"
             },
-            "description": "Lists a business's customers"
+            "description": "Lists a business's customers."
           },
           "response": [
             {
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "60113606-5c22-437f-9369-9292d3a192f6"
+              "id": "ad03edf9-75f5-4b10-85c0-c206f9200dde"
             }
           ]
         }
