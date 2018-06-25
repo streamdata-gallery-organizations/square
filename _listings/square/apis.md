@@ -6,10 +6,10 @@ description: Square helps millions of sellers run their business- from secure cr
   up today!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
 x-kinRank: "9"
-x-alexaRank: "2436"
+x-alexaRank: "2433"
 tags: Square
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/square/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
@@ -17,7 +17,7 @@ apis:
   x-api-slug: square-connect-api
   description: Get a business's information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me
   tags: Businesss,Information
   properties:
@@ -29,7 +29,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides summary information for all of a business's employees.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/employees
   tags: Provides,Summary,Information,Of,Businesss,Employees
   properties:
@@ -41,7 +41,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates an employee for a business.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/employees
   tags: Creates,Employeea,Business
   properties:
@@ -51,7 +51,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides the details for a single employee.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/employees/{employee_id}
   tags: Provides,Detailsa,Single,Employee
   properties:
@@ -61,7 +61,7 @@ apis:
   x-api-slug: square-connect-api
   description: Update Employee
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/employees/{employee_id}
   tags: Employee
   properties:
@@ -72,7 +72,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides details for a business's locations, including their IDs.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/locations
   tags: Provides,Detailsa,Businesss,Locations,,Including,Their,IDs
   properties:
@@ -83,7 +83,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides summary information for all of a business's employee roles.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/roles
   tags: Provides,Summary,Information,Of,Businesss,Employee,Roles
   properties:
@@ -93,7 +93,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates an employee role you can then assign to employees.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/roles
   tags: Creates,Employee,Role,You,Can,Then,Assign,To,Employees
   properties:
@@ -103,7 +103,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides the details for a single employee role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/roles/{role_id}
   tags: Provides,Detailsa,Single,Employee,Role
   properties:
@@ -113,7 +113,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the details of an employee role.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/roles/{role_id}
   tags: Modifies,Details,Of,Employee,Role
   properties:
@@ -124,7 +124,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides summary information for all of a business's employee timecards.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/timecards
   tags: Provides,Summary,Information,Of,Businesss,Employee,Timecards
   properties:
@@ -136,7 +136,7 @@ apis:
   description: Creates a timecard for an employee. Each timecard corresponds to a
     single shift.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/timecards
   tags: Creates,Timecardan,Employee,,Each,Timecard,Corresponds,To,Single,Shift
   properties:
@@ -150,7 +150,7 @@ apis:
     API endpoints, but the value of their deleted field is set to true. See Handling
     deleted timecards for more information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/timecards/{timecard_id}
   tags: S,Timecard,,D,Timecards,Are,Still,Accessible,From,Connect,Endpoints,,But,Value,Of,Their,Deleted,Field,Is,Set,To,True,,See,Handling,Deleted,Timecardsmore,Information
   properties:
@@ -162,7 +162,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides the details for a single timecard.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/timecards/{timecard_id}
   tags: Provides,Detailsa,Single,Timecard
   properties:
@@ -176,7 +176,7 @@ apis:
     timecard. You can view a timecard's event history with the List Timecard Events
     endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/timecards/{timecard_id}
   tags: Modifies,Timecards,Details,,This,Creates,EDIT,Eventthe,Timecard,,You,Can,View,Timecards,Event,History,List,Timecard,Events,Endpoint
   properties:
@@ -188,7 +188,7 @@ apis:
   description: Provides summary information for all events associated with a particular
     timecard.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/me/timecards/{timecard_id}/events
   tags: Provides,Summary,Information,Events,Associated,Particular,Timecard
   properties:
@@ -202,7 +202,7 @@ apis:
     bank accounts. This endpoint does not provide full bank account numbers, and there
     is no way to obtain a full bank account number with the Connect API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/bank-accounts
   tags: Provides,Non-confidential,Details,Of,Locations,Associated,Bank,Accounts,,This,Endpoint,Does,Not,Provide,Full,Bank,Account,Numbers,,There,Is,No,Way,To,Obtain,Full,Bank,Account,Number,Connect
   properties:
@@ -218,7 +218,7 @@ apis:
     account. This endpoint does not provide full bank account numbers, and there is
     no way to obtain a full bank account number with the Connect API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/bank-accounts/{bank_account_id}
   tags: Provides,Non-confidential,Detailsa,Merchants,Associated,Bank,Account,,This,Endpoint,Does,Not,Provide,Full,Bank,Account,Numbers,,There,Is,No,Way,To,Obtain,Full,Bank,Account,Number,Connect
   properties:
@@ -232,7 +232,7 @@ apis:
   description: Provides the details for all of a location's cash drawer shifts during
     a date range. The date range you specify cannot exceed 90 days.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/cash-drawer-shifts
   tags: Provides,Details,Of,Locations,Cash,Drawer,Shifts,During,Date,Range,,Date,Range,You,Specify,Cannot,Exceed,90,Days
   properties:
@@ -244,7 +244,7 @@ apis:
   description: Provides the details for a single cash drawer shift, including all
     events that occurred during the shift.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/cash-drawer-shifts/{shift_id}
   tags: Provides,Detailsa,Single,Cash,Drawer,Shift,,Including,,Events,That,Occurred,During,Shift
   properties:
@@ -254,7 +254,7 @@ apis:
   x-api-slug: square-connect-api
   description: Lists all of a location's item categories.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/categories
   tags: Lists,,Of,Locations,Item,Categories
   properties:
@@ -266,7 +266,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates an item category.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/categories
   tags: Creates,Item,Category
   properties:
@@ -276,7 +276,7 @@ apis:
   x-api-slug: square-connect-api
   description: Deletes an existing item category.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/categories/{category_id}
   tags: S,Existing,Item,Category
   properties:
@@ -286,7 +286,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the details of an existing item category.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/categories/{category_id}
   tags: Modifies,Details,Of,Existing,Item,Category
   properties:
@@ -296,7 +296,7 @@ apis:
   x-api-slug: square-connect-api
   description: Lists all of a location's discounts.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/discounts
   tags: Lists,,Of,Locations,Discounts
   properties:
@@ -308,7 +308,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates a discount.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/discounts
   tags: Creates,Discount
   properties:
@@ -318,7 +318,7 @@ apis:
   x-api-slug: square-connect-api
   description: Deletes an existing discount.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/discounts/{discount_id}
   tags: S,Existing,Discount
   properties:
@@ -328,7 +328,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the details of an existing discount.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/discounts/{discount_id}
   tags: Modifies,Details,Of,Existing,Discount
   properties:
@@ -338,7 +338,7 @@ apis:
   x-api-slug: square-connect-api
   description: Lists all of a location's fees (taxes).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/fees
   tags: Lists,,Of,Locations,Fees,(taxes)
   properties:
@@ -350,7 +350,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates a fee (tax).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/fees
   tags: Creates,Fee,(tax)
   properties:
@@ -360,7 +360,7 @@ apis:
   x-api-slug: square-connect-api
   description: Deletes an existing fee (tax).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/fees/{fee_id}
   tags: S,Existing,Fee,(tax)
   properties:
@@ -370,7 +370,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the details of an existing fee (tax).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/fees/{fee_id}
   tags: Modifies,Details,Of,Existing,Fee,(tax)
   properties:
@@ -382,7 +382,7 @@ apis:
   description: Provides inventory information for all of a merchant's inventory-enabled
     item variations.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/inventory
   tags: Provides,Inventory,Information,Of,Merchants,Inventory-enabled,Item,Variations
   properties:
@@ -392,7 +392,7 @@ apis:
   x-api-slug: square-connect-api
   description: Adjusts an item variation's current available inventory.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/inventory/{variation_id}
   tags: Adjusts,Item,Variations,Current,Available,Inventory
   properties:
@@ -402,7 +402,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides summary information for all of a location's items.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items
   tags: Provides,Summary,Information,Of,Locations,Items
   properties:
@@ -412,7 +412,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates an item and at least one variation for it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items
   tags: Creates,Item,At,Least,Variationit
   properties:
@@ -423,7 +423,7 @@ apis:
   x-api-slug: square-connect-api
   description: Deletes an existing item and all item variations associated with it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}
   tags: S,Existing,Item,,Item,Variations,Associated,It
   properties:
@@ -435,7 +435,7 @@ apis:
   description: Provides the details for a single item, including associated modifier
     lists and fees.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}
   tags: Provides,Detailsa,Single,Item,,Including,Associated,Modifier,Lists,Fees
   properties:
@@ -447,7 +447,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the core details of an existing item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}
   tags: Modifies,Core,Details,Of,Existing,Item
   properties:
@@ -459,7 +459,7 @@ apis:
   description: Removes a fee assocation from an item, meaning the fee is no longer
     automatically applied to the item in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/fees/{fee_id}
   tags: Removes,Fee,Assocation,From,Item,,Meaning,Fee,Is,No,Longer,Automatically,Applied,To,Item,In,Square,Register
   properties:
@@ -471,7 +471,7 @@ apis:
   description: Associates a fee with an item, meaning the fee is automatically applied
     to the item in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/fees/{fee_id}
   tags: Associates,Fee,Item,,Meaning,Fee,Is,Automatically,Applied,To,Item,In,Square,Register
   properties:
@@ -483,7 +483,7 @@ apis:
   description: Removes a modifier list association from an item, meaning modifier
     options from the list can no longer be applied to the item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/modifier-lists/{modifier_list_id}
   tags: Removes,Modifier,List,Association,From,Item,,Meaning,Modifier,Options,From,List,Can,No,Longer,Be,Applied,To,Item
   properties:
@@ -495,7 +495,7 @@ apis:
   description: Associates a modifier list with an item, meaning modifier options from
     the list can be applied to the item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/modifier-lists/{modifier_list_id}
   tags: Associates,Modifier,List,Item,,Meaning,Modifier,Options,From,List,Can,Be,Applied,To,Item
   properties:
@@ -505,7 +505,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates an item variation for an existing item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/variations
   tags: Creates,Item,Variationan,Existing,Item
   properties:
@@ -515,7 +515,7 @@ apis:
   x-api-slug: square-connect-api
   description: Deletes an existing item variation from an item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/variations/{variation_id}
   tags: S,Existing,Item,Variation,From,Item
   properties:
@@ -525,7 +525,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the details of an existing item variation.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/variations/{variation_id}
   tags: Modifies,Details,Of,Existing,Item,Variation
   properties:
@@ -535,7 +535,7 @@ apis:
   x-api-slug: square-connect-api
   description: Lists all of a location's modifier lists.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists
   tags: Lists,,Of,Locations,Modifier,Lists
   properties:
@@ -547,7 +547,7 @@ apis:
   description: Creates an item modifier list and at least one modifier option for
     it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists
   tags: Creates,Item,Modifier,List,At,Least,Modifier,Optionit
   properties:
@@ -559,7 +559,7 @@ apis:
   description: Deletes an existing item modifier list and all modifier options associated
     with it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists/{modifier_list_id}
   tags: S,Existing,Item,Modifier,List,,Modifier,Options,Associated,It
   properties:
@@ -569,7 +569,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides the details for a single modifier list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists/{modifier_list_id}
   tags: Provides,Detailsa,Single,Modifier,List
   properties:
@@ -579,7 +579,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the details of an existing item modifier list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists/{modifier_list_id}
   tags: Modifies,Details,Of,Existing,Item,Modifier,List
   properties:
@@ -590,7 +590,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates an item modifier option and adds it to a modifier list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists/{modifier_list_id}/modifier-options
   tags: Creates,Item,Modifier,Option,Adds,It,To,Modifier,List
   properties:
@@ -601,7 +601,7 @@ apis:
   x-api-slug: square-connect-api
   description: Deletes an existing item modifier option from a modifier list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists/{modifier_list_id}/modifier-options/{modifier_option_id}
   tags: S,Existing,Item,Modifier,Option,From,Modifier,List
   properties:
@@ -611,7 +611,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the details of an existing item modifier option.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists/{modifier_list_id}/modifier-options/{modifier_option_id}
   tags: Modifies,Details,Of,Existing,Item,Modifier,Option
   properties:
@@ -622,7 +622,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides summary information for a merchant's online store orders.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/orders
   tags: Provides,Summary,Informationa,Merchants,Online,Store,Orders
   properties:
@@ -634,7 +634,7 @@ apis:
   description: Provides comprehensive information for a single online store order,
     including the order's history.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/orders/{order_id}
   tags: Provides,Comprehensive,Informationa,Single,Online,Store,Order,,Including,Orders,History
   properties:
@@ -646,7 +646,7 @@ apis:
   description: 'Updates the details of an online store order. Every update you perform
     on an order corresponds to one of three actions:'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/orders/{order_id}
   tags: 'S,Details,Of,Online,Store,Order,,Every,Update,You,Perform,On,Order,Corresponds,To,Of,Three,Actions:'
   properties:
@@ -656,7 +656,7 @@ apis:
   x-api-slug: square-connect-api
   description: Lists all of a location's Favorites pages in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/pages
   tags: Lists,,Of,Locations,Favorites,Pages,In,Square,Register
   properties:
@@ -668,7 +668,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates a Favorites page in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/pages
   tags: Creates,Favorites,Page,In,Square,Register
   properties:
@@ -678,7 +678,7 @@ apis:
   x-api-slug: square-connect-api
   description: Deletes an existing Favorites page and all of its cells.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/pages/{page_id}
   tags: S,Existing,Favorites,Page,,Of,Its,Cells
   properties:
@@ -688,7 +688,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies the details of a Favorites page in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/pages/{page_id}
   tags: Modifies,Details,Of,Favorites,Page,In,Square,Register
   properties:
@@ -698,7 +698,7 @@ apis:
   x-api-slug: square-connect-api
   description: Deletes a cell from a Favorites page in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/pages/{page_id}/cells
   tags: S,Cell,From,Favorites,Page,In,Square,Register
   properties:
@@ -708,7 +708,7 @@ apis:
   x-api-slug: square-connect-api
   description: Modifies a cell of a Favorites page in Square Register.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/pages/{page_id}/cells
   tags: Modifies,Cell,Of,Favorites,Page,In,Square,Register
   properties:
@@ -723,7 +723,7 @@ apis:
     any of the merchant's mobile staff during a date range. Date ranges cannot exceed
     one year in length. See Date ranges for details of inclusive and exclusive dates.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/payments
   tags: Provides,Summary,Information,Payments,Taken,By,Merchant,Any,Of,Merchants,Mobile,Staff,During,Date,Range,,Date,Ranges,Cannot,Exceed,Year,In,Length,,See,Date,Rangesdetails,Of,Inclusive,Exclusive,Dates
   properties:
@@ -733,7 +733,7 @@ apis:
   x-api-slug: square-connect-api
   description: Provides comprehensive information for a single payment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/payments/{payment_id}
   tags: Provides,Comprehensive,Informationa,Single,Payment
   properties:
@@ -747,7 +747,7 @@ apis:
     of the merchant's mobile staff during a date range. Date ranges cannot exceed
     one year in length.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/refunds
   tags: Provides,Details,Refunds,Initiated,By,Merchant,Any,Of,Merchants,Mobile,Staff,During,Date,Range,,Date,Ranges,Cannot,Exceed,Year,In,Length
   properties:
@@ -759,7 +759,7 @@ apis:
   description: Issues a refund for a previously processed payment. You must issue
     a refund within 60 days of the associated payment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/refunds
   tags: Issues,Refunda,Previously,Processed,Payment,,You,Must,Issue,Refund,Within,60,Days,Of,Associated,Payment
   properties:
@@ -773,7 +773,7 @@ apis:
     by Square to a merchant's bank account during a date range. Date ranges cannot
     exceed one year in length.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/settlements
   tags: Provides,Summary,Information,Deposits,Withdrawals,Initiated,By,Square,To,Merchants,Bank,Account,During,Date,Range,,Date,Ranges,Cannot,Exceed,Year,In,Length
   properties:
@@ -785,7 +785,7 @@ apis:
   description: Provides comprehensive information for a single settlement, including
     the entries that contribute to the settlement's total.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/settlements/{settlement_id}
   tags: Provides,Comprehensive,Informationa,Single,Settlement,,Including,Entries,That,Contribute,To,Settlements,Total
   properties:
@@ -805,7 +805,7 @@ apis:
     IDs can be deleted. The response will only include IDs that were
     actually deleted.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/batch-delete
   tags: BatchCatalogObjects
   properties:
@@ -821,7 +821,7 @@ apis:
     its [CatalogModifierList](#type-catalogmodifierlist) objects, and the ids of
     any [CatalogTax](#type-catalogtax) objects that apply to it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/batch-retrieve
   tags: BatchRetrieveCatalogObjects
   properties:
@@ -840,7 +840,7 @@ apis:
     request (items, variations, modifier lists, discounts, and taxes) is no more
     than 10,000.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/batch-upsert
   tags: BatchUpsertCatalogObjects
   properties:
@@ -852,7 +852,7 @@ apis:
     Returns information about the Square Catalog API, such as batch size
     limits for `BatchUpsertCatalogObjects`.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/info
   tags: CatalogInfo
   properties:
@@ -867,7 +867,7 @@ apis:
     is specified as a comma-separated list of valid [CatalogObject](#type-catalogobject) types:
     `ITEM`, `ITEM_VARIATION`, `MODIFIER`, `MODIFIER_LIST`, `CATEGORY`, `DISCOUNT`, `TAX`.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/list
   tags: ListCatalog
   properties:
@@ -877,7 +877,7 @@ apis:
   x-api-slug: square-connect-api
   description: Creates or updates the target [CatalogObject](#type-catalogobject).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/object
   tags: UpsertCatalogObject
   properties:
@@ -893,7 +893,7 @@ apis:
     will also delete all of its
     [CatalogItemVariation](#type-catalogitemvariation) children.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/object/{object_id}
   tags: CatalogObject
   properties:
@@ -910,7 +910,7 @@ apis:
     [CatalogModifierList](#type-catalogmodifierlist) objects, and the ids of
     any [CatalogTax](#type-catalogtax) objects that apply to it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/object/{object_id}
   tags: RetrieveCatalogObject
   properties:
@@ -927,7 +927,7 @@ apis:
     ([CatalogQueryItemsForTax](#type-catalogqueryitemsfortax),
     ([CatalogQueryItemsForModifierList](#type-catalogqueryitemsformodifierlist)).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/search
   tags: SearchCatalogObjects
   properties:
@@ -940,7 +940,7 @@ apis:
     that apply to the targeted [CatalogItem](#type-catalogitem) without having
     to perform an upsert on the entire item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/update-item-modifier-lists
   tags: ItemModifierLists
   properties:
@@ -953,7 +953,7 @@ apis:
     targeted [CatalogItem](#type-catalogitem) without having to perform an
     upsert on the entire item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/update-item-taxes
   tags: ItemTaxes
   properties:
@@ -963,7 +963,7 @@ apis:
   x-api-slug: square-connect-api
   description: Lists a business's customers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/customers
   tags: ListCustomers
   properties:
@@ -989,7 +989,7 @@ apis:
     a duplicate customer, you can delete it with the
     [DeleteCustomer](#endpoint-deletecustomer) endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/customers
   tags: CreateCustomer
   properties:
@@ -1000,7 +1000,7 @@ apis:
   description: Deletes a customer from a business, along with any linked cards on
     file.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/customers/{customer_id}
   tags: Customer
   properties:
@@ -1010,7 +1010,7 @@ apis:
   x-api-slug: square-connect-api
   description: Returns details for a single customer.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/customers/{customer_id}
   tags: RetrieveCustomer
   properties:
@@ -1027,7 +1027,7 @@ apis:
     [DeleteCustomerCard](#endpoint-deletecustomercard) endpoint, then create a new one with the
     [CreateCustomerCard](#endpoint-createcustomercard) endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/customers/{customer_id}
   tags: Customer
   properties:
@@ -1040,7 +1040,7 @@ apis:
     Square takes care of automatically updating any cards on file that might
     have expired since you first attached them to a customer.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/customers/{customer_id}/cards
   tags: CreateCustomerCard
   properties:
@@ -1050,7 +1050,7 @@ apis:
   x-api-slug: square-connect-api
   description: Removes a card on file from a customer.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/customers/{customer_id}/cards/{card_id}
   tags: CustomerCard
   properties:
@@ -1065,7 +1065,7 @@ apis:
     The `id` field of the [`Location`](#type-location) objects returned by this
     endpoint correspond to that `location_id` parameter.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations
   tags: ListLocations
   properties:
@@ -1079,7 +1079,7 @@ apis:
     order to provide their payment information using a payment processing
     workflow hosted on connect.squareup.com.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/checkouts
   tags: CreateCheckout
   properties:
@@ -1095,7 +1095,7 @@ apis:
 
     Max results per [page](#paginatingresults): 50
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/refunds
   tags: ListRefunds
   properties:
@@ -1108,7 +1108,7 @@ apis:
 
     Max results per [page](#paginatingresults): 50
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/transactions
   tags: ListTransactions
   properties:
@@ -1138,7 +1138,7 @@ apis:
     [RetrieveTransaction](#endpoint-retrievetransaction). See the `processing_fee_money`
     field of each [Tender included](#type-tender) in the transaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/transactions
   tags: Charge
   properties:
@@ -1148,7 +1148,7 @@ apis:
   x-api-slug: square-connect-api
   description: Retrieves details for a single transaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/transactions/{transaction_id}
   tags: RetrieveTransaction
   properties:
@@ -1163,7 +1163,7 @@ apis:
     See [Delayed capture transactions](/articles/delayed-capture-transactions/)
     for more information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/transactions/{transaction_id}/capture
   tags: CaptureTransaction
   properties:
@@ -1178,7 +1178,7 @@ apis:
     (this article)[https://squareup.com/help/us/en/article/5060] for more information
     on refund behavior.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/transactions/{transaction_id}/refund
   tags: CreateRefund
   properties:
@@ -1193,7 +1193,7 @@ apis:
     See [Delayed capture transactions](/articles/delayed-capture-transactions/)
     for more information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/transactions/{transaction_id}/void
   tags: VoidTransaction
   properties:
@@ -1205,13 +1205,15 @@ apis:
     card processing to point of sale solutions. Get paid faster with Square and sign
     up today!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com//
   tags: Square
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/square/master/_listings/square/openapi.md
 x-common:
+- type: x-website
+  url: http://square.com
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
@@ -1240,6 +1242,8 @@ x-common:
   url: takedowns@squareup.com
 - type: x-github
   url: https://github.com/square
+- type: x-linkedin
+  url: https://www.linkedin.com/company/square--/
 - type: x-twitter
   url: https://twitter.com/Square
 - type: x-website
